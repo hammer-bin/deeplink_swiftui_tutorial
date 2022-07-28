@@ -11,6 +11,8 @@
 		8990381C2893243A0018E8FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8990381B2893243A0018E8FD /* ContentView.swift */; };
 		8990381E2893243D0018E8FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8990381D2893243D0018E8FD /* Assets.xcassets */; };
 		899038212893243D0018E8FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 899038202893243D0018E8FD /* Preview Assets.xcassets */; };
+		89903829289324F70018E8FD /* TodosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89903828289324F70018E8FD /* TodosView.swift */; };
+		8990382B289327EF0018E8FD /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8990382A289327EF0018E8FD /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,9 @@
 		8990381B2893243A0018E8FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8990381D2893243D0018E8FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		899038202893243D0018E8FD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		89903827289324A80018E8FD /* deeplink-swiftui-tutorial-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "deeplink-swiftui-tutorial-Info.plist"; sourceTree = SOURCE_ROOT; };
+		89903828289324F70018E8FD /* TodosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodosView.swift; sourceTree = "<group>"; };
+		8990382A289327EF0018E8FD /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +56,11 @@
 		899038182893243A0018E8FD /* deeplink_swiftui_tutorial */ = {
 			isa = PBXGroup;
 			children = (
+				89903827289324A80018E8FD /* deeplink-swiftui-tutorial-Info.plist */,
 				899038192893243A0018E8FD /* deeplink_swiftui_tutorialApp.swift */,
+				8990382A289327EF0018E8FD /* ProfileView.swift */,
 				8990381B2893243A0018E8FD /* ContentView.swift */,
+				89903828289324F70018E8FD /* TodosView.swift */,
 				8990381D2893243D0018E8FD /* Assets.xcassets */,
 				8990381F2893243D0018E8FD /* Preview Content */,
 			);
@@ -137,7 +145,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8990382B289327EF0018E8FD /* ProfileView.swift in Sources */,
 				8990381C2893243A0018E8FD /* ContentView.swift in Sources */,
+				89903829289324F70018E8FD /* TodosView.swift in Sources */,
 				8990381A2893243A0018E8FD /* deeplink_swiftui_tutorialApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +280,7 @@
 				DEVELOPMENT_TEAM = KLT864H57C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "deeplink-swiftui-tutorial-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +310,7 @@
 				DEVELOPMENT_TEAM = KLT864H57C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "deeplink-swiftui-tutorial-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
